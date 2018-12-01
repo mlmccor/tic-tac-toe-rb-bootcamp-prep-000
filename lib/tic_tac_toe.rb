@@ -140,8 +140,14 @@ def play(board)
     turn(board)
   end
   if won?(board)
+<<<<<<< HEAD
     puts "Congratulations #{winner(board)}!"
   else
     puts "Cat's Game!"
+=======
+    "Congratulations #{winner(board)}!"
+  else
+    "Cat's Game!"
+>>>>>>> d2fa93cd446de026f8b76580330c15cf3f440173
   end
 end
